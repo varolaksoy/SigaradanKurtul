@@ -13,6 +13,8 @@
 		049D4884205452C20051A62A /* SigaradanKurtul.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 049D4882205452C20051A62A /* SigaradanKurtul.xcdatamodeld */; };
 		049D4886205452C20051A62A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049D4885205452C20051A62A /* Assets.xcassets */; };
 		049D4889205452C20051A62A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049D4887205452C20051A62A /* LaunchScreen.storyboard */; };
+		04B288DA2091090C0076D059 /* finalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B288D92091090C0076D059 /* finalVC.swift */; };
+		1CACDA66DC9A496233E5FCBA /* Pods_SigaradanKurtul.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14423C724414BB4C8DD747F3 /* Pods_SigaradanKurtul.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,10 @@
 		049D4885205452C20051A62A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		049D4888205452C20051A62A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		049D488A205452C20051A62A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B288D92091090C0076D059 /* finalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalVC.swift; sourceTree = "<group>"; };
+		14423C724414BB4C8DD747F3 /* Pods_SigaradanKurtul.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SigaradanKurtul.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA8ED692E9DC0C6358CADF0 /* Pods-SigaradanKurtul.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SigaradanKurtul.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SigaradanKurtul/Pods-SigaradanKurtul.debug.xcconfig"; sourceTree = "<group>"; };
+		F586F4C8361BF79004E8CDAA /* Pods-SigaradanKurtul.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SigaradanKurtul.release.xcconfig"; path = "Pods/Target Support Files/Pods-SigaradanKurtul/Pods-SigaradanKurtul.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CACDA66DC9A496233E5FCBA /* Pods_SigaradanKurtul.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				049D487A205452C20051A62A /* SigaradanKurtul */,
 				049D4879205452C20051A62A /* Products */,
+				066C6989CCBC87A71E2D0084 /* Pods */,
+				AAD846F718FA85738D792C23 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +72,26 @@
 				049D4887205452C20051A62A /* LaunchScreen.storyboard */,
 				049D488A205452C20051A62A /* Info.plist */,
 				049D4882205452C20051A62A /* SigaradanKurtul.xcdatamodeld */,
+				04B288D92091090C0076D059 /* finalVC.swift */,
 			);
 			path = SigaradanKurtul;
+			sourceTree = "<group>";
+		};
+		066C6989CCBC87A71E2D0084 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEA8ED692E9DC0C6358CADF0 /* Pods-SigaradanKurtul.debug.xcconfig */,
+				F586F4C8361BF79004E8CDAA /* Pods-SigaradanKurtul.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AAD846F718FA85738D792C23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14423C724414BB4C8DD747F3 /* Pods_SigaradanKurtul.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +101,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 049D488D205452C20051A62A /* Build configuration list for PBXNativeTarget "SigaradanKurtul" */;
 			buildPhases = (
+				59BA543A86CE4334E35CE199 /* [CP] Check Pods Manifest.lock */,
 				049D4874205452C20051A62A /* Sources */,
 				049D4875205452C20051A62A /* Frameworks */,
 				049D4876205452C20051A62A /* Resources */,
@@ -94,7 +122,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Varol;
 				TargetAttributes = {
 					049D4877205452C20051A62A = {
@@ -134,6 +162,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		59BA543A86CE4334E35CE199 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SigaradanKurtul-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		049D4874205452C20051A62A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -142,6 +191,7 @@
 				049D487E205452C20051A62A /* ViewController.swift in Sources */,
 				049D487C205452C20051A62A /* AppDelegate.swift in Sources */,
 				049D4884205452C20051A62A /* SigaradanKurtul.xcdatamodeld in Sources */,
+				04B288DA2091090C0076D059 /* finalVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +231,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -188,6 +239,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -238,6 +290,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -245,6 +298,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -276,6 +330,7 @@
 		};
 		049D488E205452C20051A62A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEA8ED692E9DC0C6358CADF0 /* Pods-SigaradanKurtul.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +346,7 @@
 		};
 		049D488F205452C20051A62A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F586F4C8361BF79004E8CDAA /* Pods-SigaradanKurtul.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
